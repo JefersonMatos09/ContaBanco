@@ -1,9 +1,9 @@
 public class contaTerminal {
-    public static void main(String[] args) throws Exception {
-         String nome = "Jeferson Matos";
-         double saldo = 5235.22;
-         int conta = 2510;
-         String banco = "Santander"; 
+    public static void main(String[] args) {
+         String nome = args [0];
+         double saldo = Double.valueOf(args[1]);
+         int conta = Integer.valueOf(args [2]);
+         String banco = args [3]; 
          
          System.out.println("Por favor Insira seu nome:");
 
@@ -13,6 +13,6 @@ public class contaTerminal {
 
         System.out.println("Olá "+ nome + ",obrigado por criar uma conta em nosso banco,sua agencia é "+ banco + ",conta: "+ conta + ",e seu saldo: "+ saldo +",ja esta disponivel para saque."  );
 
-
+System.out.println("Não desista");
     }
 }
