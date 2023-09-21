@@ -5,14 +5,13 @@ public class contaTerminal {
          int conta = Integer.valueOf(args [2]);
          String banco = args [3]; 
          
-         System.out.println("Por favor Insira seu nome:");
+         System.out.println("Por favor Insira seu nome:" + nome);
 
-        System.out.println("Por favor digite o numero da sua conta:");
+        System.out.println("Por favor digite o numero da sua conta:"+conta );
 
-        System.out.println("A sua agencia é o Banco: ");
+        System.out.println("A sua agencia é o Banco: "+banco);
 
         System.out.println("Olá "+ nome + ",obrigado por criar uma conta em nosso banco,sua agencia é "+ banco + ",conta: "+ conta + ",e seu saldo: "+ saldo +",ja esta disponivel para saque."  );
 
-System.out.println("Não desista");
     }
 }
